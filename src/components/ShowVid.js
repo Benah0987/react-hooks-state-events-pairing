@@ -10,6 +10,18 @@ function ShowVid({video, toggle, seeComments}) {
     const [UpCount, setUpCount] = useState(upvotes)
     const [DownCount, setDownCount] = useState(downvotes)
 
+    function handleUp() {
+        //the setUpCount adds one to initial state to 
+        setUpCount(UpCount + 1)
+    }
+    function handleDown(){
+        //add 1 to the initial state of downvote
+        setDownCount(DownCount +1)
+    }
+    function handleClick(){
+        toggle(seeComments)
+    }
+
     return (
         <div>
             {/*the video itself*/}
