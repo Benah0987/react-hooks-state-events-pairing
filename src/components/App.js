@@ -1,5 +1,6 @@
 import video from "../data/video.js";
 import React, {useState} from 'react'
+import ShowVid from "./ShowVid.js";
 
 function App() {
  
