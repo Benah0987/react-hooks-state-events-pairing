@@ -23,7 +23,7 @@ function ShowVid({video, toggle, seeComments}) {
     }
 
     return (
-        <div>
+        <div >
             {/*the video itself*/}
             <iframe
             width="919"
